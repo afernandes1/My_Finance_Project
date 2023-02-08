@@ -1,6 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
+# this is a new comment line just for testing git
 
 def index(request):
     return render(request, "input.html")
